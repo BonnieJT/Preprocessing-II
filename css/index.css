@@ -234,6 +234,7 @@ img {
   width: 100%;
   margin: 0 auto;
   border-top: 2px dashed #C0C0C0;
+  margin-bottom: 10px;
 }
 .fun-bus-section img {
   width: 80%;
@@ -248,56 +249,78 @@ img {
   margin-left: 10%;
 }
 .home {
-  width: 100%;
+  width: 80%;
 }
-.content-section {
-  margin: 30px 0;
+.home .articles {
+  width: 80%;
+  margin-left: 10%;
+  border-top: 2px dashed #C0C0C0;
+  border-bottom: 2px dashed #C0C0C0;
+}
+.home .content-section {
+  margin: 0 auto;
+  padding-top: 25px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  width: 100%;
 }
 @media (max-width: 500px) {
-  .content-section {
+  .home .content-section {
     margin: 10px 0;
   }
 }
-.content-section .text-content {
+.home .content-section .text-content {
   width: 48%;
   padding-right: 1%;
 }
-.content-section .img-content {
+.home .content-section .img-content {
   width: 48%;
   padding-left: 1%;
 }
-.content-section .img-content img {
+.home .content-section .img-content img {
   border-radius: 10px;
 }
-.inverse-content {
+.home .inverse-content {
   padding-bottom: 30px;
-  border-bottom: 2px dashed #C0C0C0;
+  margin: 0 auto;
+  width: 100%;
 }
-.inverse-content .text-content {
+.home .inverse-content .text-content {
   padding-left: 1%;
   padding-right: 0;
 }
-.inverse-content .img-content {
+.home .inverse-content .img-content {
   padding-right: 1%;
   padding-left: 0;
 }
-.content-destination {
-  width: 75%;
-  margin: 0 auto 30px;
+.home .content-destination {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: 25px auto 30px;
 }
-.content-destination img {
+.home .content-destination img {
   border-radius: 10px;
 }
-.content-pick {
+.home .content-pick {
   padding-top: 30px;
   border-top: 2px dashed #C0C0C0;
   display: flex;
   justify-content: space-between;
+  width: 80%;
+  margin-left: 10%;
 }
-.content-pick .destination {
+.home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+.home .content-pick .destination .btn {
+  width: 100%;
+  color: white;
+  background: teal;
+  padding: 10px 5px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 1.4rem;
 }
